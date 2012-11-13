@@ -49,6 +49,12 @@ $eleventwelveth = (($twelveth * 11) + ($gutter * 10));
 
 ?>
 
+html, body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
 .full { width: <?=$full - $gutter?>px;}
 .half { width: <?=$half?>px;}
 
